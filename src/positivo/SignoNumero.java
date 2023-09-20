@@ -17,6 +17,10 @@ public class SignoNumero {
 
     public static void main(String args[]) {
 
+        SignoNumero.num();
+    }
+    
+    public static void num(){
         float numero;
         Scanner entrada = new Scanner(System.in);
         System.out.println("Introduzca un número real");

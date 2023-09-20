@@ -12,7 +12,10 @@ import java.util.Scanner;
 public class Positivo {
 
     public static void main(String[] args) {
-
+        Positivo.pos();
+        
+    }
+    public static void pos(){
         float numero;
         Scanner entrada = new Scanner(System.in);
         System.out.println("Introduzca un número real");
@@ -23,5 +26,4 @@ public class Positivo {
             System.out.println(numero + " es mayor que cero");
         }
     }
-
 }
